@@ -39,5 +39,11 @@ jobs:
       - name: Install dependencies
         run: composer install --no-interaction --prefer-dist --no-progress
 
+      - name: Prepare env
+        run: |
+          cp .env.example .env || true
+          php -r "file_exists('.env') || exit(0);"
+          php artisan key:generate || true
+
       - name: Run PHPUnit
         run: vendor/bin/phpunit
