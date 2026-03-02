@@ -5,7 +5,7 @@
 
 <nav id="main-nav">
     <ul>
-        <li><a href="#">Accueil</a></li>
+        <li><a href="#home">Accueil</a></li>
         <li><a href="#">Experiences</a></li>
         <li><a href="#">Formation</a></li>
         <li><a href="#">Langues</a></li>

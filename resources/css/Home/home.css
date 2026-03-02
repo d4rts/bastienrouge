@@ -1,0 +1,15 @@
+section#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img#main-photo {
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 200px;
+}
+
+div#main-description p {
+}

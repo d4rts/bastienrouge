@@ -4,9 +4,23 @@
 }
 
 :root {
+    --header-height: 40px;
     --header-left-color-rgb: rgba(245, 245, 247, .8);
     --header-right-color-rgb: rgba(245, 245, 247, .5);
 
     --nav-color: rgba(0, 0, 0, .8);
     --nav-color-hover: rgb(0, 0, 0);
+}
+
+.max-height {
+    height: calc(100vh - var(--header-height))
+}
+
+.under-header {
+    margin-top: var(--header-height);
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
 }

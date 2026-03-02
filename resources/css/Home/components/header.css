@@ -1,4 +1,6 @@
 header#main-header {
     width: 100%;
     background: linear-gradient(45deg, var(--header-left-color-rgb), var(--header-right-color-rgb));
+    position: fixed;
+    top: 0;
 }
