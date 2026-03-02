@@ -1,5 +1,4 @@
-header {
-    background-color: rgb(255, 0, 255);
+header#main-header {
     width: 100%;
-    display: flex;
+    background: linear-gradient(45deg, var(--header-left-color-rgb), var(--header-right-color-rgb));
 }

@@ -2,3 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
+:root {
+    --header-left-color-rgb: rgba(245, 245, 247, .8);
+    --header-right-color-rgb: rgba(245, 245, 247, .5);
+
+    --nav-color: rgba(0, 0, 0, .8);
+    --nav-color-hover: rgb(0, 0, 0);
+}
