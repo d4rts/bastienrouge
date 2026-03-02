@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace BastienRouge\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
